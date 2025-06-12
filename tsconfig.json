@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "declaration": true,
     "outDir": "dist",
     "strict": true,
@@ -10,9 +10,14 @@
     "types": [
       "@storybook/react-webpack5"
     ],
-    "moduleResolution": "bundler"
+    "moduleResolution": "node"
   },
   "include": [
-    "@packages/*"
-  ]
+    "packages/*"
+  ],
+  "paths": {
+    "@packages/*": [
+      "packages/*"
+    ]
+  }
 }
