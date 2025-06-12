@@ -7,10 +7,7 @@ const config: StorybookConfig = {
     "@storybook/addon-docs",
     "@storybook/addon-onboarding",
   ],
-  framework: '@storybook/react-webpack5',
-  typescript: {
-    reactDocgen: "react-docgen-typescript",
-  },
+  framework: "@storybook/react-webpack5",
 };
 
 export default config;
