@@ -1,5 +1,5 @@
 {
-  "name": "button",
+  "name": "@batmankoff/button",
   "version": "1.0.1",
   "main": "index.js",
   "scripts": {
@@ -9,5 +9,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "gitHead": "962d34548872cc84cd1aa44981fafc2741102dcc"
 }
