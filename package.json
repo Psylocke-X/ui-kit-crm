@@ -1,5 +1,5 @@
 {
-  "name": "@batmankoff/ui-kit-crm",
+  "name": "ui-kit-crm",
   "version": "1.0.0",
   "scripts": {
     "start": "lerna run start",
