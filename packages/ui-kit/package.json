@@ -1,6 +1,6 @@
 {
-  "name": "@batmankoff/button",
-  "version": "1.0.1",
+  "name": "@batmankoff/ui-kit",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "build": "rollup -c ./rollup.config.mjs",
@@ -9,6 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "gitHead": "962d34548872cc84cd1aa44981fafc2741102dcc"
+  "description": ""
 }

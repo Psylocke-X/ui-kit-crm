@@ -7,17 +7,12 @@
     "outDir": "dist",
     "strict": true,
     "esModuleInterop": true,
-    "types": [
-      "@storybook/react-webpack5"
-    ],
+    "types": ["@storybook/react-webpack5", "node"],
     "moduleResolution": "node"
   },
-  "include": [
-    "packages/*"
-  ],
+  "include": ["packages/*"],
   "paths": {
-    "@packages/*": [
-      "packages/*"
-    ]
+    "packages/*": ["packages/*"],
+    "*.module.scss": ["*"]
   }
 }
